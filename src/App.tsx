@@ -30,7 +30,7 @@ const App: React.FC = () => {
         onTouchEnd={() => setDepressed(false)}
         onTouchCancel={() => setDepressed(false)}
         onClick={() => {
-          post('https://6cgg3ga8jl.execute-api.us-west-2.amazonaws.com/default/trigger_celebrity_doppelganger_picture').then(v => console.log(v)).catch(e => console.error(e));
+          // post('https://6cgg3ga8jl.execute-api.us-west-2.amazonaws.com/default/trigger_celebrity_doppelganger_picture').then(v => console.log(v)).catch(e => console.error(e));
         }}
       >
         Fire
